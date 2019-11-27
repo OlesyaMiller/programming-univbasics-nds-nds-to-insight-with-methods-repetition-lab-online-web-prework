@@ -50,8 +50,8 @@ def total_gross(source)
   
   total = 0 
   index = 0 
-  while index < list_of_directors(source).length do 
-    directors = list_of_directors(source)  
+  directors = list_of_directors(source)
+  while index < directors.length do 
     totals_hash = directors_totals(source)
     total += totals_hash[directors]
   index += 1   
