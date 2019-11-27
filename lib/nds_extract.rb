@@ -29,7 +29,8 @@ def list_of_directors(source)
   list_of_d = []
   column_index = 0 
   while column_index < source.length do 
-    list_of_d.push()
+    list_of_d.push(source[column_index][:name])
+    column_index += 1 
   end 
 end
 
