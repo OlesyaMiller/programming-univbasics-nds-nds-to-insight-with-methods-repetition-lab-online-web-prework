@@ -32,6 +32,7 @@ def list_of_directors(source)
     list_of_d.push(source[column_index][:name])
     column_index += 1 
   end 
+  list_of_d
 end
 
 def total_gross(source)
