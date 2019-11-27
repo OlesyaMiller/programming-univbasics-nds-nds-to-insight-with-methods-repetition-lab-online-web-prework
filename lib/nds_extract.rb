@@ -37,6 +37,7 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
+  binding.pry 
   # Write this implementation
   #
   # Should use methods:
