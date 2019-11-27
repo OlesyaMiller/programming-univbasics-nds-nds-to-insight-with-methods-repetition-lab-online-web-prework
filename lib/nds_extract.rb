@@ -49,7 +49,7 @@ def total_gross(source)
   total = 0 
   index = 0 
   while index < source.length do 
-    total += source[directors_totals][list_of_directors][]
+    total += sorce[directors_totals][list_of_directors][]
   end
 end
 
